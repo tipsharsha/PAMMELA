@@ -1,0 +1,136 @@
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.9096534653465347
+Test Accuracy: 0.9096534653465347
+Confusion Matrix Test Data:
+[[ 354   92]
+ [  54 1116]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       0.87      0.79      0.83       446
+           2       0.92      0.95      0.94      1170
+
+    accuracy                           0.91      1616
+   macro avg       0.90      0.87      0.88      1616
+weighted avg       0.91      0.91      0.91      1616
+
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix Test Data:
+[[ 446    0]
+ [   0 1170]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       446
+           2       1.00      1.00      1.00      1170
+
+    accuracy                           1.00      1616
+   macro avg       1.00      1.00      1.00      1616
+weighted avg       1.00      1.00      1.00      1616
+
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix Test Data:
+[[ 446    0]
+ [   0 1170]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       446
+           2       1.00      1.00      1.00      1170
+
+    accuracy                           1.00      1616
+   macro avg       1.00      1.00      1.00      1616
+weighted avg       1.00      1.00      1.00      1616
+
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix Test Data:
+[[ 446    0]
+ [   0 1170]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       446
+           2       1.00      1.00      1.00      1170
+
+    accuracy                           1.00      1616
+   macro avg       1.00      1.00      1.00      1616
+weighted avg       1.00      1.00      1.00      1616
+
+
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.906559405940594
+Test Accuracy: 0.906559405940594
+Confusion Matrix Test Data:
+[[ 361   85]
+ [  66 1104]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       0.85      0.81      0.83       446
+           2       0.93      0.94      0.94      1170
+
+    accuracy                           0.91      1616
+   macro avg       0.89      0.88      0.88      1616
+weighted avg       0.91      0.91      0.91      1616
+
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix Test Data:
+[[ 446    0]
+ [   0 1170]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       446
+           2       1.00      1.00      1.00      1170
+
+    accuracy                           1.00      1616
+   macro avg       1.00      1.00      1.00      1616
+weighted avg       1.00      1.00      1.00      1616
+
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix Test Data:
+[[ 446    0]
+ [   0 1170]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       446
+           2       1.00      1.00      1.00      1170
+
+    accuracy                           1.00      1616
+   macro avg       1.00      1.00      1.00      1616
+weighted avg       1.00      1.00      1.00      1616
+
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix Test Data:
+[[ 446    0]
+ [   0 1170]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       446
+           2       1.00      1.00      1.00      1170
+
+    accuracy                           1.00      1616
+   macro avg       1.00      1.00      1.00      1616
+weighted avg       1.00      1.00      1.00      1616
+
+
