@@ -1,0 +1,36 @@
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.8830445544554455
+Test Accuracy: 0.8830445544554455
+Confusion Matrix: [[1100   70]
+ [ 119  327]]
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[1170    0]
+ [   0  446]]
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[1170    0]
+ [   0  446]]
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[1170    0]
+ [   0  446]]
+
+Model: XGBoost
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[1170    0]
+ [   0  446]]
+
+Model: GradientBoosting
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[1170    0]
+ [   0  446]]
+

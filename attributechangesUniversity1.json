@@ -1,1 +1,1 @@
-{"Designation": [], "Department": [], "Degree": [], "Year": [], "Type": [], "Department.1": [], "Degree.1": [], "Year.1": [], "Access": []}
+{"Designation": ["vis_prof", "adj_prof"], "Department": ["IT", "pha", "eni", "chem"], "Degree": ["BE", "ME"], "Year": [], "Type": ["proj", "dept_bud", "quiz"], "Department.1": ["IT", "pha", "eni", "chem"], "Degree.1": ["BE", "ME"], "Year.1": [], "Access": []}
