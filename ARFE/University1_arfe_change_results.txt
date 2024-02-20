@@ -1,36 +1,108 @@
 Model: ArtificalNeuralNetwork
-Train Accuracy: 0.9536210317460317
-Test Accuracy: 0.9536095261721658
-Confusion Matrix: [[3481   72]
- [ 115  363]]
+Train Accuracy: 0.9593253968253969
+Test Accuracy: 0.9935483870967742
+Confusion Matrix: [[280   0]
+ [  4 336]]
 
 Model: DecisionTree
 Train Accuracy: 1.0
 Test Accuracy: 1.0
-Confusion Matrix: [[3553    0]
- [   0  478]]
+Confusion Matrix: [[280   0]
+ [  0 340]]
 
 Model: RandomForest
 Train Accuracy: 1.0
 Test Accuracy: 1.0
-Confusion Matrix: [[3553    0]
- [   0  478]]
+Confusion Matrix: [[280   0]
+ [  0 340]]
 
 Model: ExtraTrees
 Train Accuracy: 1.0
 Test Accuracy: 1.0
-Confusion Matrix: [[3553    0]
- [   0  478]]
+Confusion Matrix: [[280   0]
+ [  0 340]]
 
 Model: XGBoost
 Train Accuracy: 1.0
 Test Accuracy: 1.0
-Confusion Matrix: [[3553    0]
- [   0  478]]
+Confusion Matrix: [[280   0]
+ [  0 340]]
 
 Model: GradientBoosting
 Train Accuracy: 1.0
 Test Accuracy: 1.0
-Confusion Matrix: [[3553    0]
- [   0  478]]
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.9771825396825397
+Test Accuracy: 0.9935483870967742
+Confusion Matrix: [[280   0]
+ [  4 336]]
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: XGBoost
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: GradientBoosting
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.9479166666666666
+Test Accuracy: 0.9935483870967742
+Confusion Matrix: [[280   0]
+ [  4 336]]
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: XGBoost
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
+
+Model: GradientBoosting
+Train Accuracy: 1.0
+Test Accuracy: 1.0
+Confusion Matrix: [[280   0]
+ [  0 340]]
 

@@ -1,178 +1,744 @@
 Model: ArtificalNeuralNetwork
-Train Accuracy: 0.9501488095238095
-Test Accuracy: 0.9503845199702307
-Test1 Accuracy: 0.0
+Train Accuracy: 0.9558531746031746
+Test Accuracy: 0.7016129032258065
+Test1 Accuracy: 0.7897435897435897
 Confusion Matrix Test Data:
-[[3437  116]
- [  84  394]]
+[[280   0]
+ [185 155]]
 Confusion Matrix Test1 Data:
-[[0 0]
- [1 0]]
+[[117  15]
+ [ 67 191]]
 Classification Report Test Data:
               precision    recall  f1-score   support
 
-           0       0.98      0.97      0.97      3553
-           1       0.77      0.82      0.80       478
+           0       0.60      1.00      0.75       280
+           1       1.00      0.46      0.63       340
 
-    accuracy                           0.95      4031
-   macro avg       0.87      0.90      0.88      4031
-weighted avg       0.95      0.95      0.95      4031
+    accuracy                           0.70       620
+   macro avg       0.80      0.73      0.69       620
+weighted avg       0.82      0.70      0.68       620
 
 Classification Report Test1 Data:
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       0.0
-           1       0.00      0.00      0.00       1.0
+           0       0.64      0.89      0.74       132
+           1       0.93      0.74      0.82       258
 
-    accuracy                           0.00       1.0
-   macro avg       0.00      0.00      0.00       1.0
-weighted avg       0.00      0.00      0.00       1.0
+    accuracy                           0.79       390
+   macro avg       0.78      0.81      0.78       390
+weighted avg       0.83      0.79      0.80       390
 
 
 Model: DecisionTree
 Train Accuracy: 1.0
-Test Accuracy: 1.0
-Test1 Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9358974358974359
 Confusion Matrix Test Data:
-[[3553    0]
- [   0  478]]
+[[264  16]
+ [ 96 244]]
 Confusion Matrix Test1 Data:
-[[1]]
+[[112  20]
+ [  5 253]]
 Classification Report Test Data:
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00      3553
-           1       1.00      1.00      1.00       478
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
 
-    accuracy                           1.00      4031
-   macro avg       1.00      1.00      1.00      4031
-weighted avg       1.00      1.00      1.00      4031
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
 
 Classification Report Test1 Data:
               precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       0.96      0.85      0.90       132
+           1       0.93      0.98      0.95       258
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.94       390
+   macro avg       0.94      0.91      0.93       390
+weighted avg       0.94      0.94      0.93       390
 
 
 Model: RandomForest
-Train Accuracy: 1.0
-Test Accuracy: 1.0
-Test1 Accuracy: 1.0
+Train Accuracy: 0.9997519841269841
+Test Accuracy: 0.8290322580645161
+Test1 Accuracy: 0.9435897435897436
 Confusion Matrix Test Data:
-[[3553    0]
- [   0  478]]
+[[268  12]
+ [ 94 246]]
 Confusion Matrix Test1 Data:
-[[1]]
+[[120  12]
+ [ 10 248]]
 Classification Report Test Data:
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00      3553
-           1       1.00      1.00      1.00       478
+           0       0.74      0.96      0.83       280
+           1       0.95      0.72      0.82       340
 
-    accuracy                           1.00      4031
-   macro avg       1.00      1.00      1.00      4031
-weighted avg       1.00      1.00      1.00      4031
+    accuracy                           0.83       620
+   macro avg       0.85      0.84      0.83       620
+weighted avg       0.86      0.83      0.83       620
 
 Classification Report Test1 Data:
               precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       0.92      0.91      0.92       132
+           1       0.95      0.96      0.96       258
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.94      0.94      0.94       390
 
 
 Model: ExtraTrees
 Train Accuracy: 1.0
-Test Accuracy: 1.0
-Test1 Accuracy: 1.0
+Test Accuracy: 0.8258064516129032
+Test1 Accuracy: 0.9564102564102565
 Confusion Matrix Test Data:
-[[3553    0]
- [   0  478]]
+[[264  16]
+ [ 92 248]]
 Confusion Matrix Test1 Data:
-[[1]]
+[[120  12]
+ [  5 253]]
 Classification Report Test Data:
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00      3553
-           1       1.00      1.00      1.00       478
+           0       0.74      0.94      0.83       280
+           1       0.94      0.73      0.82       340
 
-    accuracy                           1.00      4031
-   macro avg       1.00      1.00      1.00      4031
-weighted avg       1.00      1.00      1.00      4031
+    accuracy                           0.83       620
+   macro avg       0.84      0.84      0.83       620
+weighted avg       0.85      0.83      0.83       620
 
 Classification Report Test1 Data:
               precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
 
 
 Model: XGBoost
 Train Accuracy: 0.9997519841269841
-Test Accuracy: 1.0
-Test1 Accuracy: 0.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9564102564102565
 Confusion Matrix Test Data:
-[[3553    0]
- [   0  478]]
+[[264  16]
+ [ 96 244]]
 Confusion Matrix Test1 Data:
-[[0 0]
- [1 0]]
+[[120  12]
+ [  5 253]]
 Classification Report Test Data:
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00      3553
-           1       1.00      1.00      1.00       478
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
 
-    accuracy                           1.00      4031
-   macro avg       1.00      1.00      1.00      4031
-weighted avg       1.00      1.00      1.00      4031
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
 
 Classification Report Test1 Data:
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       0.0
-           1       0.00      0.00      0.00       1.0
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
 
-    accuracy                           0.00       1.0
-   macro avg       0.00      0.00      0.00       1.0
-weighted avg       0.00      0.00      0.00       1.0
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
 
 
 Model: GradientBoosting
 Train Accuracy: 0.9781746031746031
-Test Accuracy: 0.9781691887869015
-Test1 Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9179487179487179
 Confusion Matrix Test Data:
-[[3523   30]
- [  58  420]]
+[[264  16]
+ [ 96 244]]
 Confusion Matrix Test1 Data:
-[[1]]
+[[112  20]
+ [ 12 246]]
 Classification Report Test Data:
               precision    recall  f1-score   support
 
-           0       0.98      0.99      0.99      3553
-           1       0.93      0.88      0.91       478
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
 
-    accuracy                           0.98      4031
-   macro avg       0.96      0.94      0.95      4031
-weighted avg       0.98      0.98      0.98      4031
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
 
 Classification Report Test1 Data:
               precision    recall  f1-score   support
 
-           1       1.00      1.00      1.00         1
+           0       0.90      0.85      0.88       132
+           1       0.92      0.95      0.94       258
 
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
+    accuracy                           0.92       390
+   macro avg       0.91      0.90      0.91       390
+weighted avg       0.92      0.92      0.92       390
+
+
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.9489087301587301
+Test Accuracy: 0.6709677419354839
+Test1 Accuracy: 0.8025641025641026
+Confusion Matrix Test Data:
+[[280   0]
+ [204 136]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [ 65 193]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.58      1.00      0.73       280
+           1       1.00      0.40      0.57       340
+
+    accuracy                           0.67       620
+   macro avg       0.79      0.70      0.65       620
+weighted avg       0.81      0.67      0.64       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.65      0.91      0.76       132
+           1       0.94      0.75      0.83       258
+
+    accuracy                           0.80       390
+   macro avg       0.80      0.83      0.80       390
+weighted avg       0.84      0.80      0.81       390
+
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9358974358974359
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90       132
+           1       0.93      0.98      0.95       258
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.91      0.93       390
+weighted avg       0.94      0.94      0.93       390
+
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 0.8548387096774194
+Test1 Accuracy: 0.9358974358974359
+Confusion Matrix Test Data:
+[[264  16]
+ [ 74 266]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.78      0.94      0.85       280
+           1       0.94      0.78      0.86       340
+
+    accuracy                           0.85       620
+   macro avg       0.86      0.86      0.85       620
+weighted avg       0.87      0.85      0.85       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90       132
+           1       0.93      0.98      0.95       258
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.91      0.93       390
+weighted avg       0.94      0.94      0.93       390
+
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9564102564102565
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
+
+
+Model: XGBoost
+Train Accuracy: 0.9997519841269841
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9564102564102565
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
+
+
+Model: GradientBoosting
+Train Accuracy: 0.9781746031746031
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9179487179487179
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [ 12 246]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.88       132
+           1       0.92      0.95      0.94       258
+
+    accuracy                           0.92       390
+   macro avg       0.91      0.90      0.91       390
+weighted avg       0.92      0.92      0.92       390
+
+
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.9446924603174603
+Test Accuracy: 0.635483870967742
+Test1 Accuracy: 0.7230769230769231
+Confusion Matrix Test Data:
+[[280   0]
+ [226 114]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [ 96 162]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.55      1.00      0.71       280
+           1       1.00      0.34      0.50       340
+
+    accuracy                           0.64       620
+   macro avg       0.78      0.67      0.61       620
+weighted avg       0.80      0.64      0.60       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.56      0.91      0.69       132
+           1       0.93      0.63      0.75       258
+
+    accuracy                           0.72       390
+   macro avg       0.74      0.77      0.72       390
+weighted avg       0.80      0.72      0.73       390
+
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9358974358974359
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90       132
+           1       0.93      0.98      0.95       258
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.91      0.93       390
+weighted avg       0.94      0.94      0.93       390
+
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 0.8290322580645161
+Test1 Accuracy: 0.9358974358974359
+Confusion Matrix Test Data:
+[[264  16]
+ [ 90 250]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.75      0.94      0.83       280
+           1       0.94      0.74      0.83       340
+
+    accuracy                           0.83       620
+   macro avg       0.84      0.84      0.83       620
+weighted avg       0.85      0.83      0.83       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90       132
+           1       0.93      0.98      0.95       258
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.91      0.93       390
+weighted avg       0.94      0.94      0.93       390
+
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9564102564102565
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
+
+
+Model: XGBoost
+Train Accuracy: 0.9997519841269841
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9564102564102565
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
+
+
+Model: GradientBoosting
+Train Accuracy: 0.9781746031746031
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9179487179487179
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [ 12 246]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.88       132
+           1       0.92      0.95      0.94       258
+
+    accuracy                           0.92       390
+   macro avg       0.91      0.90      0.91       390
+weighted avg       0.92      0.92      0.92       390
+
+
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.9434523809523809
+Test Accuracy: 0.714516129032258
+Test1 Accuracy: 0.8
+Confusion Matrix Test Data:
+[[280   0]
+ [177 163]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [ 66 192]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.61      1.00      0.76       280
+           1       1.00      0.48      0.65       340
+
+    accuracy                           0.71       620
+   macro avg       0.81      0.74      0.70       620
+weighted avg       0.83      0.71      0.70       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.65      0.91      0.75       132
+           1       0.94      0.74      0.83       258
+
+    accuracy                           0.80       390
+   macro avg       0.79      0.83      0.79       390
+weighted avg       0.84      0.80      0.81       390
+
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9358974358974359
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90       132
+           1       0.93      0.98      0.95       258
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.91      0.93       390
+weighted avg       0.94      0.94      0.93       390
+
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9358974358974359
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[112  20]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90       132
+           1       0.93      0.98      0.95       258
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.91      0.93       390
+weighted avg       0.94      0.94      0.93       390
+
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9564102564102565
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
+
+
+Model: XGBoost
+Train Accuracy: 0.9997519841269841
+Test Accuracy: 0.8193548387096774
+Test1 Accuracy: 0.9564102564102565
+Confusion Matrix Test Data:
+[[264  16]
+ [ 96 244]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [  5 253]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       280
+           1       0.94      0.72      0.81       340
+
+    accuracy                           0.82       620
+   macro avg       0.84      0.83      0.82       620
+weighted avg       0.85      0.82      0.82       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.96      0.91      0.93       132
+           1       0.95      0.98      0.97       258
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.94      0.95       390
+weighted avg       0.96      0.96      0.96       390
+
+
+Model: GradientBoosting
+Train Accuracy: 0.9761904761904762
+Test Accuracy: 0.8387096774193549
+Test1 Accuracy: 0.8717948717948718
+Confusion Matrix Test Data:
+[[264  16]
+ [ 84 256]]
+Confusion Matrix Test1 Data:
+[[120  12]
+ [ 38 220]]
+Classification Report Test Data:
+              precision    recall  f1-score   support
+
+           0       0.76      0.94      0.84       280
+           1       0.94      0.75      0.84       340
+
+    accuracy                           0.84       620
+   macro avg       0.85      0.85      0.84       620
+weighted avg       0.86      0.84      0.84       620
+
+Classification Report Test1 Data:
+              precision    recall  f1-score   support
+
+           0       0.76      0.91      0.83       132
+           1       0.95      0.85      0.90       258
+
+    accuracy                           0.87       390
+   macro avg       0.85      0.88      0.86       390
+weighted avg       0.88      0.87      0.87       390
 
 

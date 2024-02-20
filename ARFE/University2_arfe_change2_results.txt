@@ -34,3 +34,75 @@ Test Accuracy: 1.0
 Confusion Matrix: [[102   0]
  [  0 216]]
 
+Model: ArtificalNeuralNetwork
+Train Accuracy: 1.0
+Test Accuracy: 0.940251572327044
+Confusion Matrix: [[102   0]
+ [ 19 197]]
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 0.9433962264150944
+Confusion Matrix: [[102   0]
+ [ 18 198]]
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 0.9213836477987422
+Confusion Matrix: [[102   0]
+ [ 25 191]]
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 0.9213836477987422
+Confusion Matrix: [[102   0]
+ [ 25 191]]
+
+Model: XGBoost
+Train Accuracy: 1.0
+Test Accuracy: 0.9433962264150944
+Confusion Matrix: [[102   0]
+ [ 18 198]]
+
+Model: GradientBoosting
+Train Accuracy: 0.8575885870219512
+Test Accuracy: 0.3805031446540881
+Confusion Matrix: [[ 63  39]
+ [158  58]]
+
+Model: ArtificalNeuralNetwork
+Train Accuracy: 0.9989114731730808
+Test Accuracy: 0.9088050314465409
+Confusion Matrix: [[102   0]
+ [ 29 187]]
+
+Model: DecisionTree
+Train Accuracy: 1.0
+Test Accuracy: 0.9433962264150944
+Confusion Matrix: [[102   0]
+ [ 18 198]]
+
+Model: RandomForest
+Train Accuracy: 1.0
+Test Accuracy: 0.9213836477987422
+Confusion Matrix: [[102   0]
+ [ 25 191]]
+
+Model: ExtraTrees
+Train Accuracy: 1.0
+Test Accuracy: 0.9213836477987422
+Confusion Matrix: [[102   0]
+ [ 25 191]]
+
+Model: XGBoost
+Train Accuracy: 1.0
+Test Accuracy: 0.9433962264150944
+Confusion Matrix: [[102   0]
+ [ 18 198]]
+
+Model: GradientBoosting
+Train Accuracy: 0.8575885870219512
+Test Accuracy: 0.3742138364779874
+Confusion Matrix: [[ 56  46]
+ [153  63]]
+
