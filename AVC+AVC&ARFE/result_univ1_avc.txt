@@ -1,0 +1,138 @@
+ArtificalNeuralNetwork
+Test Data
+[[280   0]
+ [136 204]]              precision    recall  f1-score   support
+
+           0       0.67      1.00      0.80       280
+           1       1.00      0.60      0.75       340
+
+    accuracy                           0.78       620
+   macro avg       0.84      0.80      0.78       620
+weighted avg       0.85      0.78      0.77       620
+Test1 Data
+[[120  12]
+ [ 48 210]]              precision    recall  f1-score   support
+
+           0       0.71      0.91      0.80       132
+           1       0.95      0.81      0.88       258
+
+    accuracy                           0.85       390
+   macro avg       0.83      0.86      0.84       390
+weighted avg       0.87      0.85      0.85       390
+
+
+DecisionTree
+Test Data
+[[264  16]
+ [  0 340]]              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97       280
+           1       0.96      1.00      0.98       340
+
+    accuracy                           0.97       620
+   macro avg       0.98      0.97      0.97       620
+weighted avg       0.98      0.97      0.97       620
+Test1 Data
+[[128   4]
+ [  5 253]]              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97       132
+           1       0.98      0.98      0.98       258
+
+    accuracy                           0.98       390
+   macro avg       0.97      0.98      0.97       390
+weighted avg       0.98      0.98      0.98       390
+
+
+RandomForest
+Test Data
+[[264  16]
+ [  0 340]]              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97       280
+           1       0.96      1.00      0.98       340
+
+    accuracy                           0.97       620
+   macro avg       0.98      0.97      0.97       620
+weighted avg       0.98      0.97      0.97       620
+Test1 Data
+[[129   3]
+ [ 13 245]]              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94       132
+           1       0.99      0.95      0.97       258
+
+    accuracy                           0.96       390
+   macro avg       0.95      0.96      0.95       390
+weighted avg       0.96      0.96      0.96       390
+
+
+ExtraTrees
+Test Data
+[[264  16]
+ [  0 340]]              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97       280
+           1       0.96      1.00      0.98       340
+
+    accuracy                           0.97       620
+   macro avg       0.98      0.97      0.97       620
+weighted avg       0.98      0.97      0.97       620
+Test1 Data
+[[127   5]
+ [  8 250]]              precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95       132
+           1       0.98      0.97      0.97       258
+
+    accuracy                           0.97       390
+   macro avg       0.96      0.97      0.96       390
+weighted avg       0.97      0.97      0.97       390
+
+
+XGBoost
+Test Data
+[[264  16]
+ [  0 340]]              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97       280
+           1       0.96      1.00      0.98       340
+
+    accuracy                           0.97       620
+   macro avg       0.98      0.97      0.97       620
+weighted avg       0.98      0.97      0.97       620
+Test1 Data
+[[130   2]
+ [  4 254]]              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       132
+           1       0.99      0.98      0.99       258
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+
+GradientBoosting
+Test Data
+[[264  16]
+ [ 36 304]]              precision    recall  f1-score   support
+
+           0       0.88      0.94      0.91       280
+           1       0.95      0.89      0.92       340
+
+    accuracy                           0.92       620
+   macro avg       0.92      0.92      0.92       620
+weighted avg       0.92      0.92      0.92       620
+Test1 Data
+[[132   0]
+ [  8 250]]              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       132
+           1       1.00      0.97      0.98       258
+
+    accuracy                           0.98       390
+   macro avg       0.97      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+
